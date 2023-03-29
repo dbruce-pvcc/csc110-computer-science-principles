@@ -44,6 +44,10 @@ def main():
 # Asks the user for pizza sizes and number of pizzas.
 def get_user_data():
     global num_pizza, pizza_size
+    print("\n**************************************")
+    print("****** Welcome to Palermo Pizza ******")
+    print("****** Please Place Your Order  ******")
+    print("**************************************\n")
     pizza_size = input("What size pizza would you like (S(Small), M(Medium), L(Large), X(Extra Large))?")
     num_pizza = int(input("How many of that size pizza would you like?"))
 
