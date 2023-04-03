@@ -75,9 +75,9 @@ def display_results():
     print('---------------------------------')
     print('Number of Pizzas - ', num_pizza)
     print('Pizza Size - ', pizza_size)
-    print('Pizza Cost        $ ' + format(subtotal, '8,.2f'))
-    print('Sales Tax         $ ' + format(sales_tax, '8,.2f'))
-    print('Total             $ ' + format(total, '8,.2f'))    
+    print('Pizza Cost        $ ' + format(subtotal, '10,.2f'))
+    print('Sales Tax         $ ' + format(sales_tax, '10,.2f'))
+    print('Total             $ ' + format(total, '10,.2f'))    
     print('---------------------------------')
     print(str(datetime.datetime.now()))
 
