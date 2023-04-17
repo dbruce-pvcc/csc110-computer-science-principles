@@ -8,14 +8,13 @@
     <style>
         table, th, td {border: 4px solid #2ab433; font-weight: bold; 
             background-color: #b1d7b711;}
+        b {color: #7c1f68;}
         table, td {text-align:left; padding: 10px; border-radius: 10px;}
         th {text-align: center; border-collapse: collapse; padding: 10px; border-radius: 10px;}
-        h2 {color: #208b27; padding-top: 15px;}
-        h3 {color: #304396;}
-        h4 {color: #3a81de;}
-        body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #fcbb8612;}
+        h2 {color: #7c1f68; padding-top: 15px;}
+        body {font-family: Georgia, 'Times New Roman', Times, serif; background-color: #7c1f6811;}
         tr:nth-child(even) {background-color: #a7e3f245; color: #3a81de; font-size: large;}
-        tr:nth-child(odd) {background-color: #b1d7b72f; color: #068989; font-size: large;}
+        tr:nth-child(odd) {background-color: #fcbb8612; color: #208b27; font-size: large;}
     </style> 
 </head>
 
@@ -38,7 +37,7 @@
         <td>Machine Language</td>
         <td>
             A computer programming language consisting of binary or hexadecimal
-            instructions that a computer can respond to directly.
+            instructions that a computer can understand and respond to directly.
         </td>
     </tr>
 
@@ -53,15 +52,17 @@
     <tr>
         <td>Assembler</td>
         <td>
-            A program that converts mnemonic expressions in machine language instructions.
+            A program that converts mnemonic expressions into a pattern of bits that 
+            the computer can understand and use to perform basic operations.
         </td>
     </tr>
 
     <tr>
         <td>Assembly Language</td>
         <td>
-            The collective mnemonic system language for representing programs that are 
-            to be converted into machine language.
+            A mnemonic programming language system that communicates with the hardware of a computer 
+            directly. It uses code words and expressions that can be easier to understand and interpret 
+            than the binary or hexadecimal data the computer stores and reads.
         </td>
     </tr>
 
@@ -69,15 +70,16 @@
         <td>Translator</td>
         <td> 
             Translates programs expressed in high-level primitives to machine language
-            programs.
+            programs. It converts high-level programming languages into patterns of bits
+            that the computer can understand.
         </td>
     </tr>
 
     <tr>
         <td>Compiler</td>
         <td> 
-            A program that converts instructions into a machine language so it 
-            can be read and executed by a computer.
+            Translates high-level programming code into machine-code or lower-level 
+            forms that can be read and executed by a computer.
         </td>
     </tr>
 
@@ -117,7 +119,7 @@
         <td>Machine Independence</td>
         <td>
           Software that is not dependent on the properties of a particular machine, 
-          and can be used on any machine.
+          and can be used on any computer system.
         </td>
     </tr>
 
@@ -150,9 +152,9 @@
         <td>Data Types:</td>
         <td>
             <ul>
-                <li>Integer: Numeric data consisting of whole numbers.</li>
-                <li>Float: Numeric data that is a decimal value or fractional number.</li>
-                <li>String: a sequence of characters used to represent text.</li>
+                <li><b>Integer:</b> Numeric data that is positive and negative whole numbers.</li>
+                <li><b>Float:</b> Numeric data that is decimal value or fractional number.</li>
+                <li><b>String:</b> A sequence of characters used to represent text.</li>
             </ul>
         </td>
     </tr>
@@ -167,7 +169,8 @@
     <tr>
         <td>Data Structure</td>
         <td>
-        The conceptual shape or arrangement of data in variables. 
+            A specialized format for organizing, processing, retrieving and storing data. 
+            The conceptual shape or arrangement of data in variables. 
         </td>
     </tr>
 
@@ -175,12 +178,12 @@
         <td>Python Collection Data Structures</td>
         <td> 
             <ul>
-                <li>List: A mutable ordered sequence of elements.</li>
-                <li>Tuple: A nonmutable ordered sequence of elements.</li>
-                <li>Set: A mutable unordered set of elements that 
+                <li><b>List:</b> A mutable ordered sequence of elements.</li>
+                <li><b>Tuple:</b> A immutable data structure that contains related elements.</li>
+                <li><b>Set:</b> A mutable unordered set of elements that 
                     cannot include duplicates.</li>
-                <li>Dictionary: A collection of key and pair value where
-                    the key value must be unique.</li>
+                <li><b>Dictionary:</b> A collection of key and pair values where the key value 
+                    is immutable and the value can be any type.</li>
             </ul>        
         </td>
     </tr>
@@ -204,25 +207,24 @@
     <tr>
         <td>Global Variable</td>
         <td>
-            Variables whose scope are not restricted to a particular part of a 
-            program.   
+            A variable whose scope is not restricted to a particular part of a 
+            program and it can be used throughout the program.   
         </td>
     </tr>
 
     <tr>
         <td>Source Program</td>
         <td> 
-            an original computer program written by a programmer that is converted 
-            into the equivalent object program, written in machine language, by the 
-            compiler or assembler. 
+            A computer program written in a higher-level programming language that 
+            will be converted into an equivalent object program by a compiler or assembler. 
         </td>
     </tr>
 
     <tr>
         <td>Object Program</td>
         <td>
-            a computer program translated from the equivalent source program into 
-            machine language by the compiler or assembler. 
+            A computer program translated from an equivalent source program into 
+            machine language by a compiler or assembler. 
         </td>
     </tr>
 
